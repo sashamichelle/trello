@@ -1,0 +1,203 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height:50px;
+	background-color: #188EC2;
+	position: fixed;
+	z-index: 100;
+}
+
+ header nav h1{
+ 	display: inline-block;
+ 	color: #fff;
+	font-size:18px;
+	padding:3px;
+	text-align: center;
+	padding-bottom:10px;
+	padding-top: 5px;
+	position: relative;
+left: 35%;
+bottom: 65px;
+}
+
+header .fa-plus-square-o{
+position: relative;
+left:1100px;
+font-size: 35px;
+bottom:60px;
+color: #fff;
+}
+
+header .fa-info-circle{
+position: relative;
+padding-left: 10px;
+left:1100px;
+font-size:30px;
+bottom:63px;
+color: #fff;	
+}
+
+header .fa-bell{
+position: relative;
+padding-left: 10px;
+left:1100px;
+font-size:25px;
+bottom:63px;
+color: #fff;	
+}
+
+header nav img{
+	height:40px;
+	width:40px;
+	position: relative;
+	left:1260px;
+	bottom:53px;
+	border-radius:100%;
+}
+
+header .headerSearch input{
+background-color: rgba(255,255,255,.3);
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 105px;
+    color: rgba(255,255,255,.5);
+    font-size: 13px;
+    height: 30px;
+    margin: 0;
+    min-height: 30px;
+    padding-right: 30px;
+    padding-left: 8px;
+    line-height: 19px;
+    transition: width 150ms;
+    width: 180px;
+    z-index: 1;
+}
+
+a{
+	    border-radius: 3px;
+	position: relative;
+	top:10px;
+	text-decoration: none;
+	display: inline-block;
+	 transition: .1s ease;
+    background: rgba(255,255,255,.3);
+    color: #f3f3f3;
+    line-height: 30px;
+    margin-right: 8px;
+    min-width: 30px;
+    padding: 0;
+    user-select: none;
+}
+a span{
+	padding-left:5px;
+	padding-right: 5px;
+
+}
+
+header .headerSearch .fa-search{
+	position: relative;
+	bottom:18px;
+	left: 80px;
+	color: #fff;
+}
+
+section{
+	height:800px;
+width: 100%;
+background-color:#2AA5D7;
+}
+
+section #sectionCode h2{
+	display: inline-block;
+	position: relative;
+	top: 80px;
+	margin-left: 15px;
+	color:#fff;
+	font-size: 22px;
+}
+
+section h2 .fa-star-o{
+	padding-left: 25px;
+	font-size: 20px;
+}
+section h2 .fa-shopping-basket{
+	padding-left:30px;
+	font-size: 20px;
+}
+
+section #sectionCode h3{
+	position: relative;
+	top: 55px;
+	left: 390px;
+	color:#fff;
+	font-size: 22px;
+}
+
+/*diseño de los eventos de javascript*/
+
+section #container .area{
+	height: 35px;
+	width: 200px;
+	position: relative;
+	top: 80px;
+	left: 15px;
+	background-color:#07688F;
+}
+
+section #container span h3{
+	display: inline-block;
+	color:#fff;
+	text-align: center;
+	opacity: 0.5;
+	padding-left: 5px;
+	padding-top: 5px;
+	cursor:pointer;
+}
+
+#container span{
+padding: 10px;
+height: 40px;
+width: 200px;
+background-color: #E4E4E4;
+}
+
+#container div{
+	height:83px;
+	width:270px;
+	background-color: #E2E4E6;
+	border-radius: 15px;
+	position: relative;
+	top: 45px;
+}
+#container input{
+	background: rgba(0,0,0,.05);
+    border-color: #aaa;
+    display: block;
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+    height: 35px;
+    width: 90%;
+    left:10px;
+    top:5px;
+
+}
+#container button{
+	width: 87px;
+	height: 30px;
+	position: relative;
+	top:10px;
+	left: 15px;
+	background-color: #519839;
+	font-weight: bold;
+	color: #fff;
+	border-radius:5px;
+	border:none;
+}
